@@ -13,9 +13,10 @@ import java.util.Locale;
  * @author reroes
  */
 public class Problema04 {
-//Realice un proceso que permita ingresar los valores por teclado para el siguiente arreglo
 
+//Realice un proceso que permita ingresar los valores por teclado para el siguiente arreglo
     public static void main(String[] args) {
+
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         double[][] datos = new double[2][2];
@@ -26,7 +27,7 @@ public class Problema04 {
                 datos[i][j] = entrada.nextDouble();
             }
         }
-        System.out.println("El arreglo queda:");
+        System.out.println("El arreglo resultante es:");
         for (int i = 0; i < datos.length; i++) {
             for (int j = 0; j < datos[i].length; j++) {
                 System.out.printf("%.2f\t",
@@ -35,5 +36,4 @@ public class Problema04 {
             System.out.println();
         }
     }
-
 }
