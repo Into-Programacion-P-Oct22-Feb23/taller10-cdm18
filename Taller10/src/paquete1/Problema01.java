@@ -7,7 +7,7 @@ package paquete1;
 
 /**
  *
- * @author reroes
+ * @author cdm124
  */
 public class Problema01 {
 

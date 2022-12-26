@@ -10,7 +10,7 @@ import java.util.Locale;
 
 /**
  *
- * @author reroes
+ * @author cdm124
  */
 public class Problema02 {
 
@@ -19,7 +19,6 @@ public class Problema02 {
         entrada.useLocale(Locale.US);
         String[] vendedores = {"Jessica Cole", "Robert Wallace"};
         int[][] ventas = new int[2][5];
-        String reporte = "";
         int suma = 0;
         int ventaDia;
 
@@ -29,7 +28,6 @@ public class Problema02 {
                 System.out.printf("Ingrese las ventas del dia\n");
                 ventaDia = entrada.nextInt();
                 suma = suma + ventaDia;
-                ventaDia = ventas[i][j];
 
             }
         }
